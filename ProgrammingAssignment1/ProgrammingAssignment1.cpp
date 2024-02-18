@@ -20,7 +20,6 @@ int main()
     int grades[3];
     double averageGrade;
 
-
     // Get student name
     cout << "Enter student first and last name: ";
     getline(cin, studentName);
@@ -44,14 +43,12 @@ int main()
     cin >> grades[2];
     cout << endl;
 
-
     // Average grade
     averageGrade = (grades[0] + grades[1] + grades[2]) / NUM_ASSIGNMENTS;
 
     // Student name and average grade
     cout << showpoint << setprecision(1) << fixed;
-    cout << "The average for " << studentName << " is " << averageGrade << endl;
-    cout << endl;
+    cout << "The average for " << studentName << " is " << averageGrade << endl << endl;
 
     // Display assignments and grades
     cout << "Here are your grades: " << endl;
