@@ -13,7 +13,7 @@ int main()
 {
     // Constant
     const double NUM_ASSIGNMENTS = 3;
-
+    
     // Variables
     string studentName;
     string assignmentNames[3];
@@ -43,7 +43,7 @@ int main()
     cin >> grades[2];
     cout << endl;
 
-    // Average grade
+    // Calculating average grade
     averageGrade = (grades[0] + grades[1] + grades[2]) / NUM_ASSIGNMENTS;
 
     // Student name and average grade
