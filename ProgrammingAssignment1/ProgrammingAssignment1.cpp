@@ -50,7 +50,8 @@ int main()
     cout << showpoint << setprecision(1) << fixed;
     cout << "The average for " << studentName << " is " << averageGrade << endl << endl;
 
-    // Display assignments and grades
+     
+    // Assignments and grades
     cout << "Here are your grades: " << endl;
     cout << setw(30) << right << assignmentNames[0] << ":";
     cout << setw(5) << right << grades[0] << endl;
