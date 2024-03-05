@@ -13,12 +13,13 @@ int main()
 {
     // Constant
     const double NUM_ASSIGNMENTS = 3;
-    
+
     // Variables
     string studentName;
     string assignmentNames[3];
     int grades[3];
     double averageGrade;
+
 
     // Get student name
     cout << "Enter student first and last name: ";
@@ -43,15 +44,17 @@ int main()
     cin >> grades[2];
     cout << endl;
 
-    // Calculating average grade
+
+    // Average grade
     averageGrade = (grades[0] + grades[1] + grades[2]) / NUM_ASSIGNMENTS;
 
     // Student name and average grade
     cout << showpoint << setprecision(1) << fixed;
+    cout << "The average for " << studentName << " is " << averageGrade << endl;
+    cout << endl;
     cout << "The average for " << studentName << " is " << averageGrade << endl << endl;
 
-     
-    // Assignments and grades
+    // Display assignments and grades
     cout << "Here are your grades: " << endl;
     cout << setw(30) << right << assignmentNames[0] << ":";
     cout << setw(5) << right << grades[0] << endl;
